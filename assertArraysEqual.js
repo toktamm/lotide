@@ -12,7 +12,7 @@ const eqArrays = (a1, a2) => {
 };
 
 const assertArraysEqual = (a1, a2) => {
-  eqArrays(a1, a2) ? console.log(`✅✅✅ ${a1} === ${a2}`) : console.log(`🛑🛑🛑 ${a1} !== ${a2}`);
+  eqArrays(a1, a2) ? console.log(`✅✅✅ ${a1} === ${a2}`) : console.log(`🔴🔴🔴 ${a1} !== ${a2}`);
 };
 
 
