@@ -1,23 +1,3 @@
-
-
-const letterPositions = function(sentence) {
-  let results = {};
-  let indices = [],
-  // logic to update results here
-  for (let i = 0; i < sentence.length; i++) {
-      if (results[sentence[i]][i]) {
-      //place it in the corresponding value of results
-      indices.push(i);
-    } else {
-      results[sentence[i]] = i;
-    }
-  return results;
-  }
-};
-
-
-
-/*
 const eqArrays = (a1, a2) => {
   if (a1.length !== a2.length) {
     console.log("Arrays being compared must be of same length.");
@@ -37,6 +17,27 @@ const assertArraysEqual = (a1, a2) => {
 };
 
 
+const letterPositions = function (sentence) {
+  let results = {};
+  // logic to update results here
+  for (let i = 0; i < sentence.length; i++) {
+    if (sentence[i] !== ' ') {
+      if (results[sentence[i]]) {
+        //place it in the corresponding value of results
+        results[sentence[i]].push(i);
+      } else {
+        results[sentence[i]] = [i];
+      }
+    }
+  }
+  return results;
+};
+
+
+
+
+
+/*
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
