@@ -5,14 +5,14 @@ const letterPositions = function(sentence) {
   let indices = [],
   // logic to update results here
   for (let i = 0; i < sentence.length; i++) {
-    if (results[sentence[i]][i]) {
+      if (results[sentence[i]][i]) {
       //place it in the corresponding value of results
       indices.push(i);
     } else {
       results[sentence[i]] = i;
     }
-  }
   return results;
+  }
 };
 
 

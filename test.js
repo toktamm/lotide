@@ -3,7 +3,7 @@ var str = "hello world";
 var res = str.charAt(0);
 console.log(res);
 
-
+  
 
 
 /*
