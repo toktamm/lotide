@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@toktam/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A clone of the lodash JavaScript library to practice creating various types of functions using JS.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/toktamm/lotide.git"
   },
-  "author": "",
+  "author": "Toktam",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/toktamm/lotide/issues"
