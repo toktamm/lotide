@@ -3,7 +3,6 @@ const assertArraysEqual = require('./assertArraysEqual');
 const assertEqual = require('./assertEqual');
 const assertObjectsEqual = require('./assertObjectsEqual');
 const countLetters = require('./countLetters');
-const countOnly = require('./countLetters');
 const countOnly = require('./countOnly');
 const eqArrays = require('./eqArrays');
 const eqObjects = require('./eqObjects');
